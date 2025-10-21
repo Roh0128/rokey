@@ -21,7 +21,7 @@ t2.speed(1)
 t.write("거북이 글 작성해줘", font=("맑은 고딕", 50,  'normal'))
 t.forward(10)
 
-t.right()
+t.right(100)
 turtle.mainloop()
 
 turtle.exitonclick()

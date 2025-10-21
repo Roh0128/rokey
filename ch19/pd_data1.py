@@ -9,6 +9,7 @@ data={
 df=pd.DataFrame(data)
 
 print(df)
+print(len(df))
 print("----------------------   ")
 
 df['salary']=[1000,20000,30000] #새로운 컬럼 추가
